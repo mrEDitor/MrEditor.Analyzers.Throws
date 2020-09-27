@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="MrEditor.Analyzers.Throws.Vsix.31c940f5-44ef-4889-931f-4dd06eb40592" Version="1.0" Language="en-US" Publisher="Eduard Minasyan &amp;lt;mrEDitor@ya.ru&amp;gt;" />
+        <DisplayName>Throws Analyzer</DisplayName>
+        <Description xml:space="preserve">VSIX for Throws Analyzer.</Description>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="MrEditor.Analyzers.Throws.Analyzer" Path="|MrEditor.Analyzers.Throws.Analyzer|" />
+        <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="MrEditor.Analyzers.Throws.Analyzer" Path="|MrEditor.Analyzers.Throws.Analyzer|" />
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="MrEditor.Analyzers.Throws" Path="|MrEditor.Analyzers.Throws|" />
+    </Assets>
+</PackageManifest>

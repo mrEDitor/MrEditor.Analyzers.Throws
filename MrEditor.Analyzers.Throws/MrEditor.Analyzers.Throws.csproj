@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Authors>Eduard Minasyan &lt;mrEDitor@ya.ru&gt;</Authors>
+    <TargetFramework>netstandard1.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Eduard Minasyan &lt;mrEDitor@ya.ru&gt;</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MrEditor.Analyzers.Throws\MrEditor.Analyzers.Throws.csproj" />
+  </ItemGroup>
+
+</Project>
